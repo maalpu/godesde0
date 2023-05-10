@@ -1,7 +1,10 @@
 package main
 
-import "github.com/maalpu/godesde0/variables"
+import (
+	"github.com/maalpu/godesde0/variables"
+)
 
 func main() {
 	variables.MuestroEnteros()
+	variables.RestoVariables()
 }
