@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-var Desarrollador string = "Mario A. Puebla"
+var Desarrollador string = "Mario"
 var Estado bool
 var Sueldo float64
 var Fecha time.Time
