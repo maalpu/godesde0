@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/ejercicios"
+	"github.com/maalpu/godesde0/archivos"
 )
 
 func main() {
@@ -52,5 +52,12 @@ func main() {
 
 	// iteraciones.Iterar()
 
-	ejercicios.IngreseValor()
+	// fmt.Println(ejercicios.IngreseValor())
+
+	// archivos.GrabarTabla()
+
+	// archivos.SumarTabla()
+
+	archivos.LeoArchivo()
+	//archivos.LeoArchivoIOutil()
 }

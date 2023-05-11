@@ -7,17 +7,18 @@ import (
 	"strconv"
 )
 
-func IngreseValor() {
+func IngreseValor() string {
+	var tabla string
 	for {
 		valor := bufio.NewScanner(os.Stdin)
-		fmt.Println("Ingrese numero1: ")
+		fmt.Print("Ingrese numero: ")
 		if valor.Scan() {
-			numero1, err := strconv.Atoi(valor.Text())
+			numero, err := strconv.Atoi(valor.Text())
 			if err == nil {
 				for i := 1; i <= 10; i++ {
-					fmt.Printf("%d x %d = %d\n", numero1, i, numero1*i)
+					tabla += fmt.Sprintf("%d x %d = %d\n", numero, i, numero*i)
 				}
-				break
+				return tabla
 			}
 		}
 	}
