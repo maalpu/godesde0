@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/teclado"
+	"github.com/maalpu/godesde0/ejercicios"
 )
 
 func main() {
@@ -48,5 +48,9 @@ func main() {
 	// cadena, valor = ejercicios.ComprobarValor("asdfads")
 	// fmt.Printf("%d %s\n", valor, cadena)
 
-	teclado.IngresoNumeros()
+	// teclado.IngresoNumeros()
+
+	// iteraciones.Iterar()
+
+	ejercicios.IngreseValor()
 }
