@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/maalpu/godesde0/ejercicios"
+	"github.com/maalpu/godesde0/teclado"
 )
 
 func main() {
@@ -42,10 +40,13 @@ func main() {
 	// } else {
 	// 	fmt.Println("Esto es Windows")
 	// }
-	cadena, valor := ejercicios.ComprobarValor("78")
-	fmt.Printf("%d %s\n", valor, cadena)
-	cadena, valor = ejercicios.ComprobarValor("1950")
-	fmt.Printf("%d %s\n", valor, cadena)
-	cadena, valor = ejercicios.ComprobarValor("asdfads")
-	fmt.Printf("%d %s\n", valor, cadena)
+
+	// cadena, valor := ejercicios.ComprobarValor("78")
+	// fmt.Printf("%d %s\n", valor, cadena)
+	// cadena, valor = ejercicios.ComprobarValor("1950")
+	// fmt.Printf("%d %s\n", valor, cadena)
+	// cadena, valor = ejercicios.ComprobarValor("asdfads")
+	// fmt.Printf("%d %s\n", valor, cadena)
+
+	teclado.IngresoNumeros()
 }
