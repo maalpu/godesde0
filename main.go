@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/archivos"
+	"github.com/maalpu/godesde0/funciones"
 )
 
 func main() {
@@ -58,6 +58,10 @@ func main() {
 
 	// archivos.SumarTabla()
 
-	archivos.LeoArchivo()
-	//archivos.LeoArchivoIOutil()
+	// archivos.LeoArchivo()
+	// archivos.LeoArchivoIOutil()
+
+	// funciones.Calculos()
+
+	funciones.LlamarClosure()
 }

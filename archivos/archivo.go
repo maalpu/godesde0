@@ -11,13 +11,13 @@ import (
 
 var fileName string = "./archivos/txt/tablas.txt"
 
-func grabarTabla() {
+func GrabarTabla() {
 	archivo, err := os.Create(fileName)
 	if err != nil {
 		fmt.Println("Error al crear el archivo", err.Error())
 		return
 	}
-	fmt.Fprintln(archivo, "")
+	fmt.Fprintln(archivo, fileName)
 	archivo.Close()
 }
 
