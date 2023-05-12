@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/users"
+	"github.com/maalpu/godesde0/ejer_interfaces"
+	"github.com/maalpu/godesde0/modelos"
 )
 
 func main() {
@@ -75,6 +76,12 @@ func main() {
 
 	// mapas.MostrarMapas()
 
-	users.Alta(1, "Mario Alberto Puebla")
+	// users.Alta(1, "Mario Alberto Puebla")
+
+	Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanoRespirando(Pedro)
+
+	Luisa := new(modelos.Mujer)
+	ejer_interfaces.HumanoRespirando(Luisa)
 
 }
