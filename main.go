@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/funciones"
+	"github.com/maalpu/godesde0/arreglos_slices"
 )
 
 func main() {
@@ -65,5 +65,11 @@ func main() {
 
 	// funciones.LlamarClosure()
 
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+
+	// arreglos_slices.MuestraArreglos()
+
+	// arreglos_slices.MuestroSlice()
+
+	arreglos_slices.Capacidad()
 }
