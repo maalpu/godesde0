@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/mapas"
+	"github.com/maalpu/godesde0/users"
 )
 
 func main() {
@@ -73,5 +73,8 @@ func main() {
 
 	// arreglos_slices.Capacidad()
 
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+
+	users.Alta(1, "Mario Alberto Puebla")
+
 }
