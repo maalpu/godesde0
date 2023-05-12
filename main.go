@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/arreglos_slices"
+	"github.com/maalpu/godesde0/mapas"
 )
 
 func main() {
@@ -71,5 +71,7 @@ func main() {
 
 	// arreglos_slices.MuestroSlice()
 
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+
+	mapas.MostrarMapas()
 }
