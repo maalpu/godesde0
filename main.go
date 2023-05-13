@@ -1,8 +1,7 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/ejer_interfaces"
-	"github.com/maalpu/godesde0/modelos"
+	"github.com/maalpu/godesde0/defer_panic"
 )
 
 func main() {
@@ -78,10 +77,12 @@ func main() {
 
 	// users.Alta(1, "Mario Alberto Puebla")
 
-	Pedro := new(modelos.Hombre)
-	ejer_interfaces.HumanoRespirando(Pedro)
+	// Pedro := new(modelos.Hombre)
+	// ejer_interfaces.HumanoRespirando(Pedro)
 
-	Luisa := new(modelos.Mujer)
-	ejer_interfaces.HumanoRespirando(Luisa)
+	// Luisa := new(modelos.Mujer)
+	// ejer_interfaces.HumanoRespirando(Luisa)
 
+	// defer_panic.VemosDefer()
+	defer_panic.EjemploPanic()
 }
