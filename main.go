@@ -88,9 +88,10 @@ func main() {
 	// defer_panic.VemosDefer()
 	// defer_panic.EjemploPanic()
 
-	go goroutines.MiNombreLento("Mario Alberto Puebla")
+	canal1 := make(chan bool)
+	defer func() { <-canal1 }()
 
-	fmt.Println("Ingrese un valor: ")
-	var x string
-	fmt.Scanln(&x)
+	go goroutines.MiNombreLento("Mario Alberto Puebla", canal1)
+	fmt.Println("Estamos ejecutando el programa... ")
+
 }
