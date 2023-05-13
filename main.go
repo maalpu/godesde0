@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/webserver"
+	"github.com/maalpu/godesde0/middleware"
 )
 
 func main() {
@@ -92,5 +92,7 @@ func main() {
 	// go goroutines.MiNombreLento("Mario Alberto Puebla", canal1)
 	// fmt.Println("Estamos ejecutando el programa... ")
 
-	webserver.Web()
+	// webserver.Web()
+
+	middleware.MiMiddleware()
 }
