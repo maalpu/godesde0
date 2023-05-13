@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/maalpu/godesde0/defer_panic"
+	"fmt"
+
+	"github.com/maalpu/godesde0/goroutines"
 )
 
 func main() {
@@ -84,5 +86,11 @@ func main() {
 	// ejer_interfaces.HumanoRespirando(Luisa)
 
 	// defer_panic.VemosDefer()
-	defer_panic.EjemploPanic()
+	// defer_panic.EjemploPanic()
+
+	go goroutines.MiNombreLento("Mario Alberto Puebla")
+
+	fmt.Println("Ingrese un valor: ")
+	var x string
+	fmt.Scanln(&x)
 }
